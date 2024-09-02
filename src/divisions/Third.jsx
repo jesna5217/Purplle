@@ -5,7 +5,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import './third.css'
 import 'swiper/css/navigation';
-
+import bar3 from "../assets/bar3.webp"
+import bar2 from "../assets/bar2.webp"
+import bar3 from "../assets/bar3.webp"
+import bar4 from "../assets/bar4.webp"
 
 // import required modules
 import { Navigation, Pagination,Autoplay } from 'swiper/modules';
@@ -22,17 +25,17 @@ function Third() {
     
     className="mySwiper">
       <SwiperSlide>
-        <img src="src/assets/bar3.webp" alt="" height='300px' />
+        <img src={bar3} alt="" height='300px' />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="src/assets/bar2.webp" alt="" height='300px'/>
+        <img src={bar2} alt="" height='300px'/>
       </SwiperSlide>
       <SwiperSlide>
-      <img src="src/assets/bar3.webp" alt="" height='300px' />
+      <img src={bar3} alt="" height='300px' />
         
       </SwiperSlide>
       <SwiperSlide>
-        <img src="src/assets/bar4.webp" alt="" height='300px' />
+        <img src={bar4} alt="" height='300px' />
       </SwiperSlide>
      
     </Swiper>
