@@ -25,7 +25,6 @@ import upto4  from "../assets/upto4.webp"
 import upto5  from "../assets/upto5.webp"
 import upto6  from "../assets/upto6.webp"
 import upto7  from "../assets/upto7.webp"
-import upto3  from "../assets/upto3.webp"
 import upto9  from "../assets/upto9.webp"
 import upto10  from "../assets/upto10.webp"
 
