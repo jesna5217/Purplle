@@ -5,7 +5,16 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import './Owl2.css'
-  
+  import owl1 from "../assets/owl1.webp"
+  import owl2 from "../assets/owl2.webp"
+  import owl3 from "../assets/owl3.webp"
+  import owl4 from "../assets/owl4.webp"
+  import owl5 from "../assets/owl5.webp"
+  import owl6 from "../assets/owl6.webp"
+  import owl7 from "../assets/owl7.webp"
+  import owl9 from "../assets/owl9.webp"
+  import owl10 from "../assets/owl10.webp"
+
 import { Card ,Button} from 'react-bootstrap';
 
 
@@ -20,7 +29,7 @@ function Owl2() {
           <div className='d-flex justify-content-evenly'>
           
           <Card style={{ width: '13rem',height:'370px' ,border:'none'}} className='me-4'>
-      <Card.Img variant="top" src="src/assets/owl1.webp" />
+      <Card.Img variant="top" src={owl1}/>
       <Card.Body>
         <div className='free bie buy'>
         <p>Buy 2, Get Extra 5%</p></div>
@@ -35,7 +44,7 @@ function Owl2() {
 
 
     <Card style={{ width: '13rem',height:'340px' ,border:'none'}}  className='me-4'>
-      <Card.Img variant="top" src="src/assets/owl2.webp" />
+      <Card.Img variant="top" src={owl2} />
       <Card.Body>
         <div className='free gift'>
         <p>Free gift on &#8377;599 </p></div>
@@ -50,7 +59,7 @@ function Owl2() {
 
 
     <Card style={{ width: '13rem',height:'340px' ,border:'none'}}  className='me-4'>
-      <Card.Img variant="top" src="src/assets/owl3.webp" />
+      <Card.Img variant="top" src={owl3} />
       <Card.Body>
         <div className='free gift'>
         <p>Freebie on 349+</p></div>
@@ -64,7 +73,7 @@ function Owl2() {
     </Card>
 
     <Card style={{ width: '13rem',height:'340px' ,border:'none'}}  className='me-4'>
-      <Card.Img variant="top" src="src/assets/owl4.webp" />
+      <Card.Img variant="top" src={owl4} />
       <Card.Body>
       
       
@@ -78,7 +87,7 @@ function Owl2() {
     </Card>
 
     <Card style={{ width: '13rem',height:'340px' ,border:'none'}} className='me-4'>
-      <Card.Img variant="top" src="src/assets/owl5.webp" />
+      <Card.Img variant="top" src={owl5} />
       <Card.Body>
         <div className='free buy'>
         <p>Buy 2, Get Extra 10%</p></div>
@@ -96,7 +105,7 @@ function Owl2() {
         <div className='d-flex justify-content-evenly' >
           
           <Card style={{ width: '13rem',height:'340px' ,border:'none'}} className='me-4' >
-      <Card.Img variant="top" src="src/assets/owl6.webp" />
+      <Card.Img variant="top" src={owl6} />
       <Card.Body>
         
         <Card.Text style={{ fontFamily: 'sans-serif',fontSize:'14px'}}>
@@ -110,7 +119,7 @@ function Owl2() {
 
 
     <Card style={{ width: '13rem',height:'340px' ,border:'none'}}  className='me-4'>
-      <Card.Img variant="top" src="src/assets/owl7.webp" />
+      <Card.Img variant="top" src={owl7} />
       <Card.Body>
      
         <Card.Text style={{ fontFamily: 'sans-serif',fontSize:'14px'}}>
@@ -125,7 +134,7 @@ function Owl2() {
 
 
     <Card style={{ width: '13rem',height:'340px' ,border:'none'}}  className='me-4'>
-      <Card.Img variant="top" src="src/assets/owl5.webp" />
+      <Card.Img variant="top" src={owl5} />
       <Card.Body>
         <div className='free gift'>
         <p>Free pouch</p></div>
@@ -139,7 +148,7 @@ function Owl2() {
     </Card>
 
     <Card style={{ width: '13rem',height:'340px' ,border:'none'}}  className='me-4'>
-      <Card.Img variant="top" src="src/assets/owl9.webp" />
+      <Card.Img variant="top" src={owl9} />
       <Card.Body>
         <div className='free'>
         <p>Freebie on 349+</p></div>
@@ -153,7 +162,7 @@ function Owl2() {
     </Card>
 
     <Card style={{ width: '13rem',height:'340px' ,border:'none'}} >
-      <Card.Img variant="top" src="src/assets/owl10.webp" />
+      <Card.Img variant="top" src={owl10} />
       <Card.Body>
         <div className='free'>
         <p>Freebie on 349+</p></div>

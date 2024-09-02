@@ -27,7 +27,7 @@ import upto6  from "../assets/upto6.webp"
 import upto7  from "../assets/upto7.webp"
 import upto9  from "../assets/upto9.webp"
 import upto10  from "../assets/upto10.webp"
-
+import banner2 from  "../assets/banner2.webp"
 import img from '../assets/bar.webp'
 
 function Home() {
@@ -111,7 +111,7 @@ function Home() {
       </div>
 
       <div style={{ marginTop: '50px' }} >
-        <img src="src/assets/banner2.webp" width='100% ' alt="" />
+        <img src={banner2} width='100% ' alt="" />
       </div>
 
 
