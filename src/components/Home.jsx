@@ -20,7 +20,7 @@ import Fifth from '../divisions/Fifth';
 import Sixth from '../divisions/Sixth';
 
 
-import img4 from '../assets/img4'
+import img4 from 'src/assets/img4.webp'
 
 function Home() {
   return (<>
