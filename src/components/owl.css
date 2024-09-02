@@ -1,0 +1,48 @@
+.swiper-button-next{
+    height: px;
+    width: 0px;
+    padding: 10px;
+   
+    background-size: cover;
+    font-size: 20px;
+}
+.mySwiper h6{
+ font-weight: 600;
+}
+.cards{
+    font-size: .875rem;
+    position: relative;
+
+}
+.free{
+    position: absolute;
+    bottom: 35%;
+    height: 25px;
+    width: 110px;
+    font-size: 13px;
+   display: flex;
+   justify-content: center;
+  padding-top: 3px;
+  background-color: #fff;
+  border-radius: 10px;
+
+    color:  #cc0f99;
+    font-weight: 500;
+    box-shadow: 5px 4px 12px rgb(216, 199, 199);
+}
+.bie{
+    top: 53%;;
+}
+.mySwiper .span{
+    opacity: 0.3;
+}
+.off{
+    color: #cc0f99;
+    font-size: 13px;
+}
+.swiper-button-next,.swiper-button-prev{
+    color: rgb(126, 115, 115);
+    font-weight: 900;
+    font-size: small;
+    height: 10px;
+}

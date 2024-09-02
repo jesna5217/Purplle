@@ -1,0 +1,27 @@
+.header-one{
+    position: fixed;
+    width: 100%;
+ z-index: 1000;
+}
+
+
+.coupon{
+    background-color: #fff;
+    height: 29px;
+   padding: 1px 10px; 
+   border: 2px dashed #cc0f99;
+   font-weight: 500;
+   font-size: 15px;
+}
+.pink p:hover{
+    color: black;
+}
+.icon{
+    color: grey;
+}
+.icon:hover{
+   color: black;
+}
+.scroll-header{
+    box-shadow: 10px 3px 10px rgb(221, 208, 208);
+}

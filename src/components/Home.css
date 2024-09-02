@@ -1,0 +1,79 @@
+.app{
+   display: flex;
+   justify-content: flex-end !important;
+  font-weight: 300;
+  font-size: 14px;
+}
+.app p{
+   margin-right: 30px;
+}
+.app p:hover{
+    color:#6600ff;
+}
+.input{
+    border-bottom: 2px solid #6600ff;
+    padding-left: 10px;
+}
+.input input{
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+.input input:focus{
+    outline: none;
+}
+.nav-bar ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center!important;
+   margin-top: 25px;
+}
+.nav-bar a{
+    color: black;
+    text-decoration: none;
+    transition: color 1s ease;
+    
+}
+.nav-bar li{
+    list-style: none;
+   display: inline;
+   margin-right: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(55, 50, 50);
+}
+.nav-bar a:hover{
+    color: #6600ff;
+}
+
+
+
+
+
+.swiper-pagination-bullet {
+  
+background-color:white !important; /* Default bullet color */
+  width: 12px; /* Bullet width */
+  height: 12px; /* Bullet height */
+  border-radius: 50%; /* Make bullets round */
+  /* opacity: 0.7; Slightly transparent */
+  opacity: .9!important;
+  border: 1px solid black;
+  transition: background-color 0.3s, opacity 0.3s; /* Smooth transition */
+}
+
+/* Style the active pagination bullet */
+.swiper-pagination-bullet-active {
+  background-color: #6e6a69 !important; /* Color for the active bullet */
+  opacity: 1; /* Fully opaque */
+  width: 16px; /* Optional: Increase size of active bullet */
+  height: 16px; /* Optional: Increase size of active bullet */
+}
+.view{
+  
+color: #6600ff;
+transition: color .3s ease;
+}
+.view:hover{
+  color: rgb(225, 52, 52);
+}
