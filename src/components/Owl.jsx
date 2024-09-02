@@ -19,7 +19,7 @@ function Owl() {
           <div className='d-flex'>
           
           <Card style={{ width: '15rem',height:'370px' ,border:'none'}} className='me-4'>
-      <Card.Img variant="top" src="src/assets/item1.webp" />
+      <Card.Img variant="top" src="https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/367224/aqualogica-detan-dewy-sunscreen-with-cherry-tomato-and-hyaluronic-acid-50-g_1_display_1678534840_a56b7b57.jpg" />
       <Card.Body>
         <div className='free bie'>
         <p>Freebie on 349+</p></div>
@@ -34,7 +34,7 @@ function Owl() {
 
 
     <Card style={{ width: '15rem',height:'340px' ,border:'none'}}  className='me-4'>
-      <Card.Img variant="top" src="src/assets/item2.avif" />
+      <Card.Img variant="top" src="https://media6.ppl-media.com//tr:h-750,w-750,c-at_max,dpr-2/static/img/product/379610/lakme-lumi-skin-30g_1_display_1706349867_d24b737d.jpg" />
       <Card.Body>
         <div className='free'>
         <p>Freebie on 349+</p></div>
@@ -48,7 +48,7 @@ function Owl() {
 
 
     <Card style={{ width: '15rem',height:'340px' ,border:'none'}}  className='me-4'>
-      <Card.Img variant="top" src="src/assets/item3.webp" />
+      <Card.Img variant="top" src="https://media6.ppl-media.com/tr:h-550,w-550,c-at_max,dpr-2/static/img/product/341938/jaquline-usa-3in1-daily-skin-brightening-wipes-30n_1_display_1673428218_486d330e.jpg" />
       <Card.Body>
         <div className='free'>
         <p>Freebie on 349+</p></div>
@@ -61,7 +61,7 @@ function Owl() {
     </Card>
 
     <Card style={{ width: '15rem',height:'340px' ,border:'none'}}  className='me-4'>
-      <Card.Img variant="top" src="src/assets/item4.webp" />
+      <Card.Img variant="top" src="https://media6.ppl-media.com//tr:h-750,w-750,c-at_max,dpr-2/static/img/product/371894/the-derma-co-2-percentage-salicylic-acid-face-serum-with-witch-hazel-and-willow-bark-for-active-acne-8-ml_12_display_1706679604_ee790804.jpg" />
       <Card.Body>
         <div className='free'>
         <p>Freebie on 349+</p></div>
@@ -74,7 +74,7 @@ function Owl() {
     </Card>
 
     <Card style={{ width: '15rem',height:'340px' ,border:'none'}} className='me-4'>
-      <Card.Img variant="top" src="src/assets/item10.webp" />
+      <Card.Img variant="top" src="https://media6.ppl-media.com/tr:h-550,w-550,c-at_max,dpr-2/static/img/product/374610/mamaearth-vitamin-c-face-wash-with-vitamin-c-and-turmeric-for-skin-illumination-100-ml_8_display_1700631264_c8b8e372.jpg" />
       <Card.Body>
         <div className='free'>
         <p>Freebie on 349+</p></div>
