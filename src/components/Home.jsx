@@ -20,7 +20,7 @@ import Fifth from '../divisions/Fifth';
 import Sixth from '../divisions/Sixth';
 
 
-import img4 from 'src/assets/img4.webp'
+import img4 from '../assets/img4.webp'
 
 function Home() {
   return (<>
@@ -44,14 +44,14 @@ function Home() {
         <SwiperSlide><img height='400px' width='88%' src="https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true,dpr-2/mediafiles/ecomm/misc/1725022748_lakme_powered_by_sunscreen_revised_2596x836.jpeg" alt="" /></SwiperSlide>
         <SwiperSlide><img height='400px' width='88%' src="https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true,dpr-2/mediafiles/ecomm/misc/1725043361_ubtan-de-tan-powder-banner_web.jpg" alt="" /></SwiperSlide>
         <SwiperSlide><img height='400px' width='88%' src="https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true,dpr-2/mediafiles/ecomm/misc/1725084749_lakme_hul_makeup_2596x836.jpeg" alt="" /></SwiperSlide>
-        <SwiperSlide><img height='400px' width='88%' src={img4} alt="" /></SwiperSlide>
-        <SwiperSlide><img height='400px' width='88%' src="public/images/img5.webp" alt="" /></SwiperSlide>
-        <SwiperSlide><img height='400px' width='88%' src="public/images/img6.webp" alt="" /></SwiperSlide>
-        <SwiperSlide><img height='400px' width='88%' src="public/images/img7.webp" alt="" /></SwiperSlide>
-        <SwiperSlide><img height='400px' width='88%' src="public/images/img8.webp" alt="" /></SwiperSlide>
-        <SwiperSlide><img height='400px' width='88%' src="public/images/img9.webp" alt="" /></SwiperSlide>
-        <SwiperSlide><img height='400px' width='88%' src="public/images/img10.webp" alt="" /></SwiperSlide>
-        <SwiperSlide><img height='400px' width='88%' src="public/images/img11.webp" alt="" /></SwiperSlide>
+        <SwiperSlide><img height='400px' width='88%' src="https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true,dpr-2/mediafiles/ecomm/misc/1724911956_web-hero_1298x418.jpg"alt="" /></SwiperSlide>
+        <SwiperSlide><img height='400px' width='88%' src="https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true,dpr-2/mediafiles/ecomm/misc/1725084747_cetaphil_radiance_2596x836.jpeg" alt="" /></SwiperSlide>
+        <SwiperSlide><img height='400px' width='88%' src="https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true,dpr-2/mediafiles/ecomm/misc/1725046660_ag-pu_webhp-1.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img height='400px' width='88%' src="https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true,dpr-2/mediafiles/ecomm/misc/1725085155_dot_and_key_eventone_-_skincare_2596x836.jpeg" alt="" /></SwiperSlide>
+        <SwiperSlide><img height='400px' width='88%' src="https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true,dpr-2/mediafiles/ecomm/misc/1725090185_mars-_makeup-_blush_2596x836.jpeg" alt="" /></SwiperSlide>
+        <SwiperSlide><img height='400px' width='88%' src="https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true,dpr-2/mediafiles/ecomm/misc/1724836179_global_store_skinmakeup_and_hair_2596x836.jpeg" alt="" /></SwiperSlide>
+        <SwiperSlide><img height='400px' width='88%' src="https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true,dpr-2/mediafiles/ecomm/misc/1725084752_mamaearth_everday_makeup_2596x836.jpeg" alt="" /></SwiperSlide>
+       
 
 
 
