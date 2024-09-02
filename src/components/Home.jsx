@@ -20,6 +20,8 @@ import Fifth from '../divisions/Fifth';
 import Sixth from '../divisions/Sixth';
 
 
+import img4 from '../assets/img4'
+
 function Home() {
   return (<>
 
@@ -42,7 +44,7 @@ function Home() {
         <SwiperSlide><img height='400px' width='88%' src="https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true,dpr-2/mediafiles/ecomm/misc/1725022748_lakme_powered_by_sunscreen_revised_2596x836.jpeg" alt="" /></SwiperSlide>
         <SwiperSlide><img height='400px' width='88%' src="https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true,dpr-2/mediafiles/ecomm/misc/1725043361_ubtan-de-tan-powder-banner_web.jpg" alt="" /></SwiperSlide>
         <SwiperSlide><img height='400px' width='88%' src="https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true,dpr-2/mediafiles/ecomm/misc/1725084749_lakme_hul_makeup_2596x836.jpeg" alt="" /></SwiperSlide>
-        <SwiperSlide><img height='400px' width='88%' src="public/images/img4.webp" alt="" /></SwiperSlide>
+        <SwiperSlide><img height='400px' width='88%' src={img4} alt="" /></SwiperSlide>
         <SwiperSlide><img height='400px' width='88%' src="public/images/img5.webp" alt="" /></SwiperSlide>
         <SwiperSlide><img height='400px' width='88%' src="public/images/img6.webp" alt="" /></SwiperSlide>
         <SwiperSlide><img height='400px' width='88%' src="public/images/img7.webp" alt="" /></SwiperSlide>
