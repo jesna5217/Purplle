@@ -6,11 +6,39 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 import './Fourth.css'
 
 
+import abc5 from "../assets/abc5.webp"
+import abc6 from "../assets/abc6.webp"
+import abc7 from "../assets/abc7.webp"
+import abc8 from "../assets/abc8.webp"
+
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 
 import 'swiper/css/navigation';
+
+import caro9 from "../assets/caro9.webp"
+import caro10 from "../assets/caro10.webp"
+import caro11 from "../assets/caro11.webp"
+import caro12 from "../assets/caro12.webp"
+import caro13 from "../assets/caro13.webp"
+
+
+import glow from "../assets/glow.webp"
+import glow2 from "../assets/glow.webp"
+import glow3 from "../assets/glow.webp"
+import glow4 from "../assets/glow.webp"
+import glow5 from "../assets/glow.webp"
+import glow6 from "../assets/glow.webp"
+import glow7 from "../assets/glow.webp"
+import glow8 from "../assets/glow.webp"
+import glow9 from "../assets/glow.webp"
+import glow10 from "../assets/glow.webp"
+
+import banner4 from "../assets/banner4.webp"
+import banner5 from "../assets/banner5.webp"
+import banner6 from "../assets/banner6.webp"
 
 
 // import required modules
@@ -35,17 +63,17 @@ function Sixth() {
     
     className="mySwiper">
       <SwiperSlide>
-        <img src="src/assets/abc5.webp" alt="" height='400px' width='100%'/>
+        <img src={abc5} alt="" height='400px' width='100%'/>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="src/assets/abc6.webp" alt="" height='400px' width='100%'/>
+        <img src={abc6} alt="" height='400px' width='100%'/>
       </SwiperSlide>
       <SwiperSlide>
-      <img src="src/assets/abc7.webp" alt="" height='400px'width='100%' />
+      <img src={abc7} alt="" height='400px'width='100%' />
         
       </SwiperSlide>
       <SwiperSlide>
-        <img src="src/assets/abc8.webp" alt="" height='400px' width='100%'/>
+        <img src={abc8} alt="" height='400px' width='100%'/>
       </SwiperSlide>
      
     </Swiper>
@@ -56,20 +84,20 @@ function Sixth() {
    <OwlCarousel className='owl-theme' loop nav {...options}>
   
    <div className='it me-3'>
-    <img src="src/assets/caro9.webp" alt=""  width='80%'  height='100%'/>
+    <img src={caro9} alt=""  width='80%'  height='100%'/>
    </div>
    
    <div className='it me-3'>
-    <img src="src/assets/caro10.webp" alt="" width='80%'  height='100%' />
+    <img src={caro10} alt="" width='80%'  height='100%' />
    </div>
    <div className='it me-3'>
-    <img src="src/assets/caro11.webp" alt="" width='80%'  height='100%' />
+    <img src={caro11} alt="" width='80%'  height='100%' />
    </div>
    <div className='it me-3'>
-    <img src="src/assets/caro12.webp" alt="" width='80%'  height='100%'/>
+    <img src={caro12}alt="" width='80%'  height='100%'/>
    </div>
    <div className='it me-3'>
-    <img src="src/assets/caro13.webp" alt=""width='80%'  height='100%' />
+    <img src={caro13} alt=""width='80%'  height='100%' />
    </div>
    
 </OwlCarousel>
@@ -83,31 +111,31 @@ function Sixth() {
 
 <div className='d-flex glow  mt-4' >
 
-<img src="src/assets/glow.webp" alt="" />
-<img src="src/assets/glow2.webp" alt="" />
-<img src="src/assets/glow3.webp" alt="" />
-<img src="src/assets/glow4.webp" alt="" />
-<img src="src/assets/glow5.webp" alt="" />
-<img src="src/assets/glow6.webp" alt="" />
-<img src="src/assets/glow7.webp" alt="" />
-<img src="src/assets/glow8.webp" alt="" />
-<img src="src/assets/glow9.webp" alt="" />
+<img src={glow} alt="" />
+<img src={glow2} alt="" />
+<img src={glow3} alt="" />
+<img src={glow4} alt="" />
+<img src={glow5} alt="" />
+<img src={glow6} alt="" />
+<img src={glow7} alt="" />
+<img src={glow8} alt="" />
+<img src={glow9} alt="" />
 
-<img src="src/assets/glow10.webp" alt="" />
+<img src={glow10} alt="" />
 
 </div>
 
 
 <div className='mb-4'>
-    <img src="src/assets/banner4.webp" alt="" />
+    <img src={banner4} alt="" />
 </div>
 
 <div className='mb-4'>
-    <img src="src/assets/banner5.webp" alt="" />
+    <img src={banner5} alt="" />
 </div>
 
 <div>
-    <img src="src/assets/banner6.webp" alt="" />
+    <img src={banner6} alt="" />
 </div>
 
 

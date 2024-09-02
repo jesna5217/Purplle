@@ -6,6 +6,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 import 'swiper/css/navigation';
+import abc2 from "../assets/abc2.webp"
+import abc3 from "../assets/abc3.webp"
+import abc4 from "../assets/abc4.webp"
+import banner3 from "../assets/banner3.webp"
 
 
 // import required modules
@@ -23,24 +27,21 @@ function Fifth() {
     
     className="mySwiper">
       <SwiperSlide>
-        <img src="src/assets/abc4.webp" alt="" height='400px' width='100%'/>
+        <img src={abc4} alt="" height='400px' width='100%'/>
       </SwiperSlide>
       <SwiperSlide>
-        <img src="src/assets/abc2.webp" alt="" height='400px' width='100%'/>
+        <img src={abc2} alt="" height='400px' width='100%'/>
       </SwiperSlide>
       <SwiperSlide>
-      <img src="src/assets/abc3.webp" alt="" height='400px'width='100%' />
+      <img src={abc3} alt="" height='400px'width='100%' />
         
       </SwiperSlide>
-      <SwiperSlide>
-        <img src="src/assets/abc1.webp" alt="" height='400px' width='100%'/>
-      </SwiperSlide>
-     
+    
     </Swiper>
     </div>
 
     <div>
-        <img src="src/assets/banner3.webp" alt="" width='100%' />
+        <img src={banner3} alt="" width='100%' />
     </div>
   </>
   )
