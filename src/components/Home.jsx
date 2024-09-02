@@ -39,7 +39,7 @@ function Home() {
         modules={[Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide><img height='400px' width='88%' src="public/images/1724914731_wake_up_makeup_sale__2596x836.webp" alt="" /></SwiperSlide>
+        <SwiperSlide><img height='400px' width='88%' src="/images/1724914731_wake_up_makeup_sale__2596x836.webp" alt="" /></SwiperSlide>
         <SwiperSlide><img height='400px' width='88%' src="src/assets/img2.webp" alt="" /></SwiperSlide>
         <SwiperSlide><img height='400px' width='88%' src="src/assets/img3.webp" alt="" /></SwiperSlide>
         <SwiperSlide><img height='400px' width='88%' src="src/assets/img4.webp" alt="" /></SwiperSlide>
