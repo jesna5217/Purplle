@@ -18,7 +18,16 @@ import Owl2 from '../divisions/Owl2';
 import Fourth from '../divisions/Fourth';
 import Fifth from '../divisions/Fifth';
 import Sixth from '../divisions/Sixth';
-
+import upto1  from "../assets/upto1.webp"
+import upto2  from "../assets/upto2.webp"
+import upto3  from "../assets/upto3.webp"
+import upto4  from "../assets/upto4.webp"
+import upto5  from "../assets/upto5.webp"
+import upto6  from "../assets/upto6.webp"
+import upto7  from "../assets/upto7.webp"
+import upto3  from "../assets/upto3.webp"
+import upto9  from "../assets/upto9.webp"
+import upto10  from "../assets/upto10.webp"
 
 import img from '../assets/bar.webp'
 
@@ -80,25 +89,25 @@ function Home() {
       <Third />
 
       <div>
-        <img src="src/assets/upto1.webp" alt="" width='50%' />
-        <img src="src/assets/upto3.webp" alt="" width='50%' />
+        <img src={upto1} alt="" width='50%' />
+        <img src={upto3} alt="" width='50%' />
       </div>
 
       <div>
-        <img src="src/assets/upto2.webp" alt="" width='50%' />
-        <img src="src/assets/upto4.webp" alt="" width='50%' />
+        <img src={upto2} alt="" width='50%' />
+        <img src={upto4} alt="" width='50%' />
       </div>
       <div>
-        <img src="src/assets/upto5.webp" alt="" width='50%' />
-        <img src="src/assets/upto6.webp" alt="" width='50%' />
+        <img src={upto5} alt="" width='50%' />
+        <img src={upto6} alt="" width='50%' />
       </div>
       <div>
-        <img src="src/assets/upto7.webp" alt="" width='50%' />
-        <img src="src/assets/upto3.webp" alt="" width='50%' />
+        <img src={upto7} alt="" width='50%' />
+        <img src={upto3} alt="" width='50%' />
 
         <div>
-          <img src="src/assets/upto9.webp" alt="" width='50%' />
-          <img src="src/assets/upto10.webp" alt="" width='50%' />
+          <img src={upto9} alt="" width='50%' />
+          <img src={upto10} alt="" width='50%' />
         </div>
       </div>
 
