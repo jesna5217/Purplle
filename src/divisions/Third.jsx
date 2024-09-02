@@ -7,7 +7,6 @@ import './third.css'
 import 'swiper/css/navigation';
 import bar3 from "../assets/bar3.webp"
 import bar2 from "../assets/bar2.webp"
-import bar3 from "../assets/bar3.webp"
 import bar4 from "../assets/bar4.webp"
 
 // import required modules
