@@ -20,7 +20,7 @@ import Fifth from '../divisions/Fifth';
 import Sixth from '../divisions/Sixth';
 
 
-import img4 from '../assets/img4.webp'
+import img from '../assets/bar.webp'
 
 function Home() {
   return (<>
@@ -74,7 +74,7 @@ function Home() {
       <Owl />
 
       <div style={{ marginTop: '0px' }} >
-        <img src="src/assets/bar.webp" width='100% ' alt="" />
+        <img src={img} width='100% ' alt="" />
       </div>
 
       <Third />
