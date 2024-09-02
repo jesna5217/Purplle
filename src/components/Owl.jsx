@@ -6,7 +6,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 import { Card } from 'react-bootstrap';
-
+import item from "../assets/item.webp";
+import item7 from "../assets/item7.webp"
+import item8 from "../assets/item8.webp"
+import item9 from "../assets/item9.webp"
+import item1 from "../assets/item1.webp"
 
 // import required modules
 import { Navigation } from 'swiper/modules';
@@ -91,7 +95,7 @@ function Owl() {
         <div className='d-flex' >
           
           <Card style={{ width: '15rem',height:'340px' ,border:'none'}} className='me-4' >
-      <Card.Img variant="top" src="src/assets/item.webp" />
+      <Card.Img variant="top" src={item} />
       <Card.Body>
         <div className='free'>
         <p>Freebie on 349+</p></div>
@@ -105,7 +109,7 @@ function Owl() {
 
 
     <Card style={{ width: '15rem',height:'340px' ,border:'none'}}  className='me-4'>
-      <Card.Img variant="top" src="src/assets/item7.webp" />
+      <Card.Img variant="top" src={item7} />
       <Card.Body>
         <div className='free'>
         <p>Freebie on 349+</p></div>
@@ -119,7 +123,7 @@ function Owl() {
 
 
     <Card style={{ width: '15rem',height:'340px' ,border:'none'}}  className='me-4'>
-      <Card.Img variant="top" src="src/assets/item8.webp" />
+      <Card.Img variant="top" src={item8} />
       <Card.Body>
         <div className='free'>
         <p>Freebie on 349+</p></div>
@@ -132,7 +136,7 @@ function Owl() {
     </Card>
 
     <Card style={{ width: '15rem',height:'340px' ,border:'none'}}  className='me-4'>
-      <Card.Img variant="top" src="src/assets/item9.webp" />
+      <Card.Img variant="top" src={item9} />
       <Card.Body>
         <div className='free'>
         <p>Freebie on 349+</p></div>
@@ -145,7 +149,7 @@ function Owl() {
     </Card>
 
     <Card style={{ width: '15rem',height:'340px' ,border:'none'}} >
-      <Card.Img variant="top" src="src/assets/item1.webp" />
+      <Card.Img variant="top" src={item1} />
       <Card.Body>
         <div className='free'>
         <p>Freebie on 349+</p></div>
