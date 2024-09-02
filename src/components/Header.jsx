@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import { Link } from 'react-router-dom';
-;
+import log from "../assets/log.webp";
 
 function Header() {
     const [isVisible, setIsVisible] = useState(false);
@@ -61,7 +61,7 @@ function Header() {
                     
                     <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title><img src="src/assets/log.webp" height='100' width='450' alt="" className='m-3' />
+          <Modal.Title><img src={log} height='100' width='450' alt="" className='m-3' />
 
 <div style={{fontSize:'14px',fontWeight:'500',marginLeft:'200px'}}>Login or Signup</div></Modal.Title>
         </Modal.Header>
