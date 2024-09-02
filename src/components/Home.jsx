@@ -39,9 +39,9 @@ function Home() {
         modules={[Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide><img height='400px' width='88%' src="public/images/1724914731_wake_up_makeup_sale__2596x836.webp" alt="" /></SwiperSlide>
-        <SwiperSlide><img height='400px' width='88%' src="public/images/img2.webp" alt="" /></SwiperSlide>
-        <SwiperSlide><img height='400px' width='88%' src="public/images/img3.webp" alt="" /></SwiperSlide>
+        <SwiperSlide><img height='400px' width='88%' src="https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true,dpr-2/mediafiles/ecomm/misc/1725022748_lakme_powered_by_sunscreen_revised_2596x836.jpeg" alt="" /></SwiperSlide>
+        <SwiperSlide><img height='400px' width='88%' src="https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true,dpr-2/mediafiles/ecomm/misc/1725043361_ubtan-de-tan-powder-banner_web.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img height='400px' width='88%' src="https://media6.ppl-media.com/tr:w-1280,c-at_max,pr-true,dpr-2/mediafiles/ecomm/misc/1725084749_lakme_hul_makeup_2596x836.jpeg" alt="" /></SwiperSlide>
         <SwiperSlide><img height='400px' width='88%' src="public/images/img4.webp" alt="" /></SwiperSlide>
         <SwiperSlide><img height='400px' width='88%' src="public/images/img5.webp" alt="" /></SwiperSlide>
         <SwiperSlide><img height='400px' width='88%' src="public/images/img6.webp" alt="" /></SwiperSlide>
