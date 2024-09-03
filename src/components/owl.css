@@ -14,6 +14,11 @@
     position: relative;
 
 }
+.product{
+    width: 15rem;
+    height: 370px;
+
+}
 .free{
     position: absolute;
     bottom: 35%;
@@ -45,4 +50,31 @@
     font-weight: 900;
     font-size: small;
     height: 10px;
+}
+.text{
+    font-size: 14px;
+}
+@media only screen and (max-width: 600px){
+
+
+.mySwiper1{
+    height: 230px;
+    width: 800px;
+}
+.box {
+ margin: 0px 0px 0px 0px;  
+}
+.text{
+    font-size: 8px;
+}   
+.text h6{
+    font-size: 9px;
+} 
+.free{
+    top: 35%;
+}
+.swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
 }

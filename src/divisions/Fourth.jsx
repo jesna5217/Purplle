@@ -27,11 +27,11 @@ function Fourth() {
   return (
    
    <>
-   <div className='d-flex justify-content-center align-items-center'>
+   <div className='d-flex justify-content-center align-items-center ban4'>
   <img src={now} alt="" />
    </div>
    
-<div className='mb-5'>
+<div className='owl4' >
    <OwlCarousel className='owl-theme' loop nav {...options}>
    <div className='item'>
     <img src={caro1} alt="" />

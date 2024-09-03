@@ -2,9 +2,21 @@
     position: fixed;
     width: 100%;
  z-index: 1000;
+background-color: #F9D3E8;
+height: 50px;
 }
+.header-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-header img{
+    height: 30px;
 
-
+}
+.head{
+    display: flex;
+}
 .coupon{
     background-color: #fff;
     height: 29px;
@@ -22,6 +34,94 @@
 .icon:hover{
    color: black;
 }
+.one{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .scroll-header{
     box-shadow: 10px 3px 10px rgb(221, 208, 208);
+}
+.phone{
+    display: none;
+}
+.icons{
+    display: flex;
+}
+.pic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    font-size: 35px;
+    margin-right: 20px;
+    color: black;
+}
+@media only screen and (max-width: 600px){
+    .flat{
+        font-size: 10px;
+    }
+    .head{
+        margin-left: 0;
+        display: flex;
+    }
+    .header-one{
+        background-color:rgb(245, 208, 234);
+    justify-content: space-between;
+    }
+    .main-header img{
+        height: 40px;
+        margin-left: 10px;
+    }
+    .main-header .head{
+      display: block;
+    }
+    .coupon{
+     width: 130px;
+     font-size: 10px;
+     text-align: center;
+     height: 20px;
+     margin-bottom: 20px;
+    
+    }
+    .scroll-header{
+        display: none;
+    }
+    
+   
+    .app{
+    visibility: hidden;
+  
+    }
+    
+    .pic{
+        display: block;
+    }
+    .icons img{
+        display: none;
+    }
+    .input input{
+       width: 200px;
+    
+    }
+    .input input::placeholder{
+        font-size: 10px;
+    }
+    
+.icons span{
+    color: pink;
+}
+.icon{
+  margin-left: 30px;
+  font-size: 20px;
+  margin-top:4px ;
+  margin-right:30px;
+}
+.nav-bar{
+    display: none;
+}
+.header3{
+    height: 160px;
+}
 }

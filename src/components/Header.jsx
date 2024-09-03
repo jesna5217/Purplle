@@ -36,15 +36,17 @@ function Header() {
     
     return (
         <>
-        
+
+
+
             <header className='main-header'>
-                <div className=' d-flex justify-content-around align-items-center header-one' style={{ backgroundColor: '#F9D3E8', height: '50px' }} >
-                    <div className='d-flex justify-content-evenly align-items-center ' style={{ marginRight: "200px" }}>
+                <div className=' header-one' >
+                    <div className='one  ' style={{ marginRight: "200px" }}>
 
-                        <img src="https://media6.ppl-media.com/mediafiles/ecomm/home/1543587824_logo.png" alt="" height='30px' />
-                        <div className='pt-3 d-flex ms-3 '>
+                        <img src="https://media6.ppl-media.com/mediafiles/ecomm/home/1543587824_logo.png" alt=""  />
+                        <div className='pt-3 ms-3 head '>
 
-                            <p className='fw-bolder '>⭐⭐FLAT Rs. 100 OFF on your first order!⭐⭐</p>
+                            <p className='fw-bolder flat '>⭐⭐FLAT Rs. 100 OFF on your first order!⭐⭐</p>
                             <div className='d-flex coupon ms-3' ><p>Use Code: <span style={{ color: '#cc0f99', fontWeight: '700' }}>APPFIRST</span></p></div>
                         </div>
                     </div>
@@ -151,38 +153,38 @@ function Header() {
             </header>
 
 
-            <header>
+            <header className='header3'>
                 <div className='app' style={{ paddingTop: '60px', paddingRight: '100px', height: '70px' }}>
                     <p>DOWNLOAD APP  &nbsp; | </p>
                     <p>SUPPORT &nbsp;  |  </p>
                     <p>  TRACK ORDER</p>
                 </div>
                 <hr />
-                <div className='d-flex justify-content-around align-items-center' style={{ height: '60px' }}>
+                <div className='pic' style={{ height: '60px' }}>
 
                     <div className='d-flex input'><input type="text" placeholder='What you looking for?' />
-                        <i class="fa-solid fa-magnifying-glass me-3" style={{ color: 'grey' }}></i>
+                        <i class="fa-solid fa-magnifying-glass me-3" style={{ color: 'grey' }} ></i>
                     </div>
-                    <div className="d-flex">
+                    <div className="icons">
                         <Link to='/'>
                         <img src="https://media6.ppl-media.com/static/purplle/img/purplle-logo-1.svg" height='60px' alt="" />
                         <img className='mt-3 ms-1 ' src="https://media6.ppl-media.com/mediafiles/ecomm/promo/1537798844_try-logo-3x.png" alt="" height='27px' /></Link>
                     </div>
-                    <div style={{ color: 'black' }}>
-                        <span className="material-symbols-outlined me-3" style={{ fontWeight: '300', fontSize: '35px' }}>
+                    <div style={{ color: 'black' }} className='wish'>
+                        <span className="material-symbols-outlined  icon" style={{ fontWeight: '300'}} >
                             favorite
                         </span>
-                     <Link to='/cart' style={{textDecoration:'none'}} >  <span className="material-symbols-outlined me-3" style={{ fontWeight: '300', fontSize: '35px',color:'black',cursor:'pointer' }}>
+                     <Link to='/cart' style={{textDecoration:'none'}} >  <span className="material-symbols-outlined  icon" style={{ fontWeight: '300',color:'black',cursor:'pointer' }}>
                             shopping_cart
                         </span></Link>
-                        <span className="material-symbols-outlined me-3" style={{ fontWeight: '300', fontSize: '35px' }}>
+                        <span className="material-symbols-outlined icon" style={{ fontWeight: '300'}}>
                             add_reaction
                         </span>
 
                     </div>
 
                 </div>
-                <hr />
+                <hr  className='line'/>
 
                 <nav className='nav-bar'>
                     <ul>
@@ -199,7 +201,7 @@ function Header() {
 
                     </ul>
                 </nav>
-                <hr />
+                <hr className='line'/>
 
             </header>
         </>

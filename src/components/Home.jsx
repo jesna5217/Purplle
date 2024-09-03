@@ -34,7 +34,7 @@ function Home() {
   return (<>
 
 
-    <div className='box' style={{ width: '100%', margin: '50px 100px 0px 100px',height:'auto' }}>
+    <div className='box'>
 
 
       <Swiper
@@ -65,27 +65,25 @@ function Home() {
 
       </Swiper>
 
-      <div style={{ marginTop: '30px' }} >
-        <img src="src/assets/week.webp" width='87% ' alt="" />
+      <div  className='ban'>
+        <img src="src/assets/week.webp"  alt="" />
       </div>
     </div>
 
-    <div className="cards" style={{ margin: '20px 100px' }}>
+    <div className="cards">
       <div className='d-flex justify-content-center aign-items-center'>
-        <div ><p style={{ letterSpacing: '2px', fontWeight: 700, fontSize: '19px', fontFamily: '"Manrope", sans-serif' }}>FEATURED</p>
-          <p style={{ fontWeight: '600' }} className='view ps-3 mb-4' >View ALL <i class="fa-solid fa-arrow-right"></i></p></div></div>
+        <div ><p style={{  fontWeight: 700, fontFamily: '"Manrope", sans-serif'}}  className="featured">FEATURED</p>
+          <p style={{ fontWeight: '600' }} className='view text-center mb-4' >View ALL <i class="fa-solid fa-arrow-right"></i></p></div></div>
 
 
+          </div>
 
-
-
-      <Owl />
-
-      <div style={{ marginTop: '0px' }} >
+<div className="owl1"><Owl /></div>
+      <div style={{ marginTop: '0px' }}  className='owl1'>
         <img src={img} width='100% ' alt="" />
       </div>
-
-      <Third />
+<div className="owl1"> <Third /></div>
+     <div className="owl1">
 
       <div>
         <img src={upto1} alt="" width='50%' />
@@ -114,17 +112,19 @@ function Home() {
         <img src={banner2} width='100% ' alt="" />
       </div>
 
+      </div>
 
-
-      <div className='d-flex justify-content-center aign-items-center mt-3'>
-        <div ><p style={{ letterSpacing: '2px', fontWeight: 700, fontSize: '19px', fontFamily: '"Manrope", sans-serif' }}>BEST SELLERS</p>
+      <div className='d-flex justify-content-center aign-items-center mt-3 '>
+        <div ><p style={{ letterSpacing: '2px', fontWeight: 700,fontFamily: '"Manrope", sans-serif' }} className="featured">BEST SELLERS</p>
          </div></div>
-<Owl2/>
 
-<Fourth/>
-<Fifth/>
-<Sixth/>
-    </div>
+         <div className="owl1"><Owl2/></div>
+
+<div className="owl1"><Fourth/></div>
+
+<div className="owl1"><Fifth/></div>
+<div className="owl1"><Sixth/></div>
+   
 <hr />
 
   </>

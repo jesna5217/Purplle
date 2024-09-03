@@ -4,3 +4,12 @@
     font-size: small;
     height: 10px;
 }
+@media only screen and (max-width: 600px){
+    .mySwiper img{
+        height: 200px;
+        width:500px
+    }
+    .loreal{
+        height: 200px;
+    }
+}

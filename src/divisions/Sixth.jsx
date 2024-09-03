@@ -10,7 +10,7 @@ import abc5 from "../assets/abc5.webp"
 import abc6 from "../assets/abc6.webp"
 import abc7 from "../assets/abc7.webp"
 import abc8 from "../assets/abc8.webp"
-
+import './fifth.css'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -54,7 +54,7 @@ function Sixth() {
      }
   return (
     <>
-<div className='mt-3 mb-5'>
+<div className='mt-3 mb-5 loreal'>
     <Swiper pagination={{clickable:true}}
     navigation
     
@@ -126,15 +126,15 @@ function Sixth() {
 </div>
 
 
-<div className='mb-4'>
+<div className='mb-4 ban5'>
     <img src={banner4} alt="" />
 </div>
 
-<div className='mb-4'>
+<div className='mb-4 ban6'>
     <img src={banner5} alt="" />
 </div>
 
-<div>
+<div className='ban7'>
     <img src={banner6} alt="" />
 </div>
 

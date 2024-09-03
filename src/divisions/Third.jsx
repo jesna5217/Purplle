@@ -15,7 +15,7 @@ function Third() {
   
   return (
     <>
-<div className='mt-3 mb-5'>
+<div className='mt-3 mb-5 loreal'>
     <Swiper pagination={{clickable:true}}
     navigation
     

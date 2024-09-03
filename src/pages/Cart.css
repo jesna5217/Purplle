@@ -17,3 +17,6 @@
     margin-left: 27%;
     text-align: center;
 }
+header{
+    z-index: 1000;
+}

@@ -10,7 +10,7 @@ import abc2 from "../assets/abc2.webp"
 import abc3 from "../assets/abc3.webp"
 import abc4 from "../assets/abc4.webp"
 import banner3 from "../assets/banner3.webp"
-
+import './fifth.css'
 
 // import required modules
 import { Navigation, Pagination,Autoplay } from 'swiper/modules';
@@ -18,7 +18,7 @@ function Fifth() {
   
   return (
     <>
-<div className='mt-3 mb-5'>
+<div className='mt-3 mb-5 swiper3 dry'>
     <Swiper pagination={{clickable:true}}
     navigation
     
