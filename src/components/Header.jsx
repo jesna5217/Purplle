@@ -98,7 +98,7 @@ function Header() {
             </header>
 
 
-
+{/* 
             <header className={`scroll-header ${isVisible ? 'show' : ''}`}>
                 <div style={{ height: '80px', width: '100%' }} className='d-flex justify-content-evenly align-items-center'>
                     <img src="https://media6.ppl-media.com/static/purplle/img/purplle-logo-1.svg" className='mt-5' alt="" />
@@ -150,7 +150,7 @@ function Header() {
                     </div>
                 </div>
 
-            </header>
+            </header> */}
 
 
             <header className='header3'>
