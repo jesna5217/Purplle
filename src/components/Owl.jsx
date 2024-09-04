@@ -81,7 +81,7 @@ function Owl() {
     <Card style={{ width: '15rem',height:'340px' ,border:'none'}} className='me-4'>
       <Card.Img variant="top" src="https://media6.ppl-media.com/tr:h-550,w-550,c-at_max,dpr-2/static/img/product/374610/mamaearth-vitamin-c-face-wash-with-vitamin-c-and-turmeric-for-skin-illumination-100-ml_8_display_1700631264_c8b8e372.jpg" />
       <Card.Body>
-        <div className='free'>
+        <div className='free '>
         <p>Freebie on 349+</p></div>
         <Card.Text style={{ fontFamily: 'sans-serif'}} className='text'>
         Mamaearth Vitamin C Daily Glow Face Wash
@@ -98,7 +98,7 @@ function Owl() {
           <Card style={{ width: '15rem',height:'340px' ,border:'none'}} className='me-4' >
       <Card.Img variant="top" src={item} />
       <Card.Body>
-        <div className='free'>
+        <div className='free '>
         <p>Freebie on 349+</p></div>
         <Card.Text style={{ fontFamily: 'sans-serif'}} className='text'>
         Jaquline Vitamin C Glow Sheet Mask
